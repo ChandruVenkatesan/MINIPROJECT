@@ -4,18 +4,23 @@ padding:0;
 box-sizing:border-box;
 font-family:'Poppins',sans-serif;
 }
-
+a{
+    display: inline;
+    color: #6366f1;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+}
 body{
 height:100vh;
-background:#f3f4f6;
 }
 
-.container{
+.container1{
 display:flex;
 height:100vh;
 }
 
-.left-panel{
+.left-panel1{
 flex:1;
 background:linear-gradient(135deg,#4f46e5,#6366f1);
 display:flex;
@@ -25,22 +30,22 @@ color:white;
 padding:40px;
 }
 
-.left-content h1{
+.left-content1 h1{
 font-size:40px;
 margin-bottom:10px;
 }
 
-.subtitle{
+.subtitle1{
 font-size:18px;
 margin-bottom:8px;
 }
 
-.tagline{
+.tagline1{
 font-size:14px;
 opacity:0.8;
 }
 
-.right-panel{
+.right-panel1{
 flex:1;
 background:#e5e7eb;
 display:flex;
@@ -48,26 +53,25 @@ justify-content:center;
 align-items:center;
 }
 
-.login-card{
+.signup-card1{
 background:white;
-width:450px;
-padding:80px;
-padding-top: 100px;
+width:380px;
+padding:40px;
 border-radius:12px;
 box-shadow:0 20px 40px rgba(0,0,0,0.1);
 text-align:center;
 }
 
-.login-card h2{
+.signup-card1 h2{
 margin-bottom:25px;
 }
 
-.input-group{
+.input-group1{
 position:relative;
 margin-bottom:25px;
 }
 
-.input-group input{
+.input-group1 input{
 width:100%;
 padding:10px 0;
 border:none;
@@ -75,7 +79,7 @@ border-bottom:1px solid #999;
 outline:none;
 }
 
-.input-group label{
+.input-group1 label{
 position:absolute;
 top:10px;
 left:0;
@@ -84,28 +88,14 @@ color:#777;
 transition:0.3s;
 }
 
-.input-group input:focus ~ label,
-.input-group input:valid ~ label{
+.input-group1 input:focus ~ label,
+.input-group1 input:valid ~ label{
 top:-10px;
 font-size:12px;
 color:#4f46e5;
 }
-.create{
-    padding-top: 20px;
-    font-size: 13px;
-}
-.ac{
-    display: inline;
-    color: #6366f1;
-    font-weight: bold;
-    font-size: 13px;
-    text-decoration: none;
-}
-.ac:hover{
-    cursor: pointer;
-    color: #8a8bf2;
-}
-button{
+
+.button1{
 width:100%;
 padding:10px;
 border:none;
@@ -116,13 +106,16 @@ cursor:pointer;
 transition:0.3s;
 }
 
-button:hover{
+.button1:hover{
 background:#4338ca;
 }
 
-#error{
-margin-top:15px;
-color:red;
+.login-link1{
+margin-top:20px;
 font-size:13px;
 }
 
+#message{
+margin-top:15px;
+font-size:13px;
+}

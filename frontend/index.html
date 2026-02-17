@@ -33,8 +33,13 @@
                 <label>Password</label>
             </div>
 
-            <button onclick="login()">Login</button>
-            <p class = create>Don't have an account ? <strong class = ac>Create Account</strong></p>
+           <button onclick="login()">Login</button>
+            <p class="create">
+                Don't have an account?
+                <a href="signup.html" class="ac">Create Account</a>
+            </p>
+
+
 
             <div id="error"></div>
         </div>
@@ -42,113 +47,6 @@
 
 </div>
 
-<div id="dashboard1" class="dashboard">
-
-    <div class="sidebar">
-        <div class="logo">SDIS</div>
-
-        <div class="menu">
-            <div class="menu-item active">Dashboard</div>
-            <div class="menu-item">Documents</div>
-            <div class="menu-item">Indexing</div>
-            <div class="menu-item">Reports</div>
-            <div class="menu-item">Settings</div>
-        </div>
-
-        <div class="user-box">
-            <div class="user-avatar">A</div>
-            <div>
-                <div class="user-name">Admin</div>
-                <div class="user-role">Administrator</div>
-            </div>
-        </div>
-        <div class="logout-btn" onclick="logout()">Logout</div>
-    </div>
-
-    <div class="main">
-
-        <div class="topbar">
-            <input type="text" placeholder="Search documents...">
-            <div class="top-actions">
-                <div class="notification">🔔</div>
-                <div class="profile">Admin</div>
-            </div>
-        </div>
-
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-title">Total Documents</div>
-                <div class="stat-number">124</div>
-                <div class="stat-growth">+12% this month</div>
-            </div>
-
-            <div class="stat-card">
-                <div class="stat-title">Indexed Keywords</div>
-                <div class="stat-number">3,542</div>
-                <div class="stat-growth">+8% growth</div>
-            </div>
-
-            <div class="stat-card">
-                <div class="stat-title">Active Users</div>
-                <div class="stat-number">18</div>
-                <div class="stat-growth">+3 new</div>
-            </div>
-
-            <div class="stat-card">
-                <div class="stat-title">Storage Used</div>
-                <div class="stat-number">2.4GB</div>
-                <div class="stat-growth">65% of limit</div>
-            </div>
-        </div>
-
-        <div class="content-grid">
-
-            <div class="card large">
-                <div class="card-title">Upload & Index Document</div>
-                <input type="text" placeholder="Document Title">
-                <input type="text" placeholder="Tags (comma separated)">
-                <input type="file">
-                <button>Upload Document</button>
-            </div>
-
-            <div class="card">
-                <div class="card-title">Recent Activity</div>
-                <div class="activity-item">Indexed Project_Report.pdf</div>
-                <div class="activity-item">Admin uploaded Invoice_2026.docx</div>
-                <div class="activity-item">Search performed: “Machine Learning”</div>
-                <div class="activity-item">New user registered</div>
-            </div>
-
-        </div>
-
-        <div class="card full">
-            <div class="card-title">Recent Documents</div>
-            <div class="document-grid">
-                <div class="doc-card">
-                    <div class="doc-title">Project Report</div>
-                    <div class="doc-tags">AI, ML, Research</div>
-                </div>
-
-                <div class="doc-card">
-                    <div class="doc-title">Invoice 2026</div>
-                    <div class="doc-tags">Finance, Accounts</div>
-                </div>
-
-                <div class="doc-card">
-                    <div class="doc-title">Meeting Notes</div>
-                    <div class="doc-tags">Internal, Team</div>
-                </div>
-
-                <div class="doc-card">
-                    <div class="doc-title">SDIS Architecture</div>
-                    <div class="doc-tags">System Design</div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-<script src="script.js"></script>
+<script src="dash.js"></script>
 </body>
 </html>

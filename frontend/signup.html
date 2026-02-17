@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Account - SDIS</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+<div class="container1">
+
+    <div class="left-panel1">
+        <div class="left-content1">
+            <h1>Join SDIS</h1>
+            <p class="subtitle1">Smart Document Indexing System</p>
+            <p class="tagline1">Create your account to get started</p>
+        </div>
+    </div>
+
+    <div class="right-panel1">
+        <div class="signup-card1">
+            <h2>Create Account</h2>
+
+            <div class="input-group1">
+                <input type="text" id="fullname" required>
+                <label>Full Name</label>
+            </div>
+
+            <div class="input-group1">
+                <input type="email" id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-group1">
+                <input type="password" id="password" required>
+                <label>Password</label>
+            </div>
+
+            <div class="input-group1">
+                <input type="password" id="confirmPassword" required>
+                <label>Confirm Password</label>
+            </div>
+
+            <button class="button1" onclick="register()">Create Account</button>
+
+            <div class="login-link1">
+                Already have an account? <a href="index.html">Login</a>
+            </div>
+
+            <div id="message"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="signup.js"></script>
+</body>
+</html>
