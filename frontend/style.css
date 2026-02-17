@@ -50,8 +50,9 @@ align-items:center;
 
 .login-card{
 background:white;
-width:350px;
-padding:40px;
+width:450px;
+padding:80px;
+padding-top: 100px;
 border-radius:12px;
 box-shadow:0 20px 40px rgba(0,0,0,0.1);
 text-align:center;
@@ -89,7 +90,17 @@ top:-10px;
 font-size:12px;
 color:#4f46e5;
 }
-
+.create{
+    padding-top: 20px;
+    font-size: 13px;
+}
+.ac{
+    color: #6366f1;
+}
+.ac:hover{
+    cursor: pointer;
+    color: #8a8bf2;
+}
 button{
 width:100%;
 padding:10px;
