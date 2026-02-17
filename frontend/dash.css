@@ -62,7 +62,10 @@ align-items:center;
 justify-content:center;
 font-weight:600;
 }
-
+.user-role{
+font-size:12px;
+opacity:0.7;
+}
 .logout-btn{
 margin-top:15px;
 background:#ef4444;
